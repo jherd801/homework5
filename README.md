@@ -12,4 +12,4 @@ Link to project repository(https://github.com/jherd801/homework5)
 
 Screenshot of deployed application
 
-![Image description](https://github.com/jherd801/homework2/blob/master/Assets/Images/Screenshot.jpg)
+![Image description](https://github.com/jherd801/homework5/blob/master/assets/plannerScreenshot.png)
