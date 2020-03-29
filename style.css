@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 th {
   width: 10%;
@@ -50,7 +50,7 @@ body {
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
+    /* height: 80px; */
     border-top: 1px solid white;
   }
   
