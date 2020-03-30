@@ -36,9 +36,11 @@ let row17 = document.getElementById("row17");
 
 
 // Parsing moment.js object
-const mHour = parseInt(m.format("hh"));
+const mHour = parseInt(m.format("HH"));
 const date = m.format("dddd, MMMM Do YYYY");
 const time = m.format("h:mm a");
+
+console.log(mHour);
 
 // Display current time and date on page
 currentDay.innerText = "Today is " + " " + date;
