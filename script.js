@@ -2,15 +2,6 @@
 let currentDay = document.getElementById("currentDay");
 let currentTime = document.getElementById("currentTime");
 let m = moment();
-let btn9 = $("#btn9");
-let btn10 = $("#btn10");
-let btn11 = $("#btn11");
-let btn12 = $("#btn12");
-let btn13 = $("#btn13");
-let btn14 = $("#btn14");
-let btn15 = $("#btn15");
-let btn16 = $("#btn16");
-let btn17 = $("#btn17");
 
 // Task input fields
 let inp9 = document.getElementById("inp9");
@@ -40,8 +31,6 @@ const mHour = parseInt(m.format("HH"));
 const date = m.format("dddd, MMMM Do YYYY");
 const time = m.format("h:mm a");
 
-console.log(mHour);
-
 // Display current time and date on page
 currentDay.innerText = "Today is " + " " + date;
 currentTime.innerText = "Current time is " + " " + time;
@@ -51,7 +40,6 @@ currentTime.innerText = "Current time is " + " " + time;
 $("button").on("click", function() {
     localStorage.setItem(this.parentNode.previousSibling.firstElementChild.id, this.parentNode.previousSibling.firstElementChild.value);
 });
-
 
 // Set text area content to key & value stored in local storage
 let task9 = localStorage.getItem("inp9");
